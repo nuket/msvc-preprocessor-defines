@@ -6,7 +6,7 @@ that are automatically set by the Microsoft compiler at compile time.
 
 It should be built with the `/Zc:__cplusplus` option to have a correctly-set
 `__cplusplus` define, because of the way the compiler works (as explained
-[here](https://devblogs.microsoft.com/cppblog/msvc-now-correctly-reports-__cplusplus/))
+[here](https://devblogs.microsoft.com/cppblog/msvc-now-correctly-reports-__cplusplus/)).
 
 e.g. `cl /std:c++17 /Zc:__cplusplus /Zc:preprocessor main.cpp`
 
