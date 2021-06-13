@@ -8,7 +8,9 @@ It should be built with the `/Zc:__cplusplus` option to have a correctly-set
 `__cplusplus` define, because of the way the compiler works (as explained
 [here](https://devblogs.microsoft.com/cppblog/msvc-now-correctly-reports-__cplusplus/)).
 
-e.g. `cl /std:c++17 /Zc:__cplusplus /Zc:preprocessor main.cpp`
+```
+cl /std:c++17 /Zc:__cplusplus /Zc:preprocessor main.cpp
+```
 
 Running the `main.exe` program prints something like the following. Useful for
 debugging compiler settings and diagnosing potential program issues.
@@ -96,6 +98,6 @@ _MFC_VER                 : Not Defined
 1. Go to the Microsoft [preprocessor define
 documentation](https://docs.microsoft.com/en-us/cpp/preprocessor/predefined-macros)
 2. Open up the browser Console.
-3. Copy and paste the contents of `index.js` into the Console.
+3. Copy and paste the contents of [`index.js`](index.js) into the Console.
 4. Run `main()`.
-5. Copy that output to `main.cpp`.
+5. Copy that output to [`main.cpp`](main.cpp).
