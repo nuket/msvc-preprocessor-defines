@@ -99,5 +99,5 @@ _MFC_VER                 : Not Defined
 documentation](https://docs.microsoft.com/en-us/cpp/preprocessor/predefined-macros)
 2. Open up the browser Console.
 3. Copy and paste the contents of [`index.js`](index.js) into the Console.
-4. Run `main()`.
+4. Run [`main()`](https://github.com/nuket/msvc-preprocessor-defines/blob/main/index.js#L103).
 5. Copy that output to [`main.cpp`](main.cpp).
