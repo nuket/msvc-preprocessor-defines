@@ -15,6 +15,10 @@ cl /std:c++17 /Zc:__cplusplus /Zc:preprocessor main.cpp
 Running the `main.exe` program prints something like the following. Useful for
 debugging compiler settings and diagnosing potential program issues.
 
+The string containing all of the `#define`s is a translation-unit `static`, so
+it's possible to use within individual source files to understand their `#define`d
+settings.
+
 ```
 Compiled with the following preprocessor #defines:
 
